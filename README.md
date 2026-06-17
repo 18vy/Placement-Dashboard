@@ -4,10 +4,7 @@ A web-based dashboard developed to manage campus placement opportunities efficie
 
 ## 🚀 Live Demo
 
-Add your GitHub Pages link here:
-
-`https://yourusername.github.io/Placement-Dashboard/`
-
+'https://18vy.github.io/Placement-Dashboard/'
 ---
 
 ## ✨ Features
