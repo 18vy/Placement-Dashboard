@@ -1,0 +1,54 @@
+body{
+    font-family:Arial;
+    background:#f4f6f9;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.company{
+    margin-top:15px;
+    padding:15px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.stats{
+display:flex;
+gap:20px;
+margin:20px 0;
+}
+
+.stat-card{
+flex:1;
+background:#007bff;
+color:white;
+padding:20px;
+text-align:center;
+border-radius:10px;
+}
+
+.stat-card h2{
+margin:0;
+font-size:32px;
+}

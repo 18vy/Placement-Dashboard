@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Placement Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Placement Management Dashboard</h1>
+
+<div class="stats">
+
+<div class="stat-card">
+<h2 id="totalCompanies">0</h2>
+<p>Total Companies</p>
+</div>
+
+<div class="stat-card">
+<h2 id="highestPackage">0</h2>
+<p>Highest Package</p>
+</div>
+
+</div>
+
+<input type="text"
+id="company"
+placeholder="Company Name">
+
+<input type="text"
+id="package"
+placeholder="Package">
+
+<input type="date"
+id="deadline">
+
+<button onclick="addCompany()">
+Add Company
+</button>
+
+<input
+type="text"
+id="search"
+placeholder="Search Company"
+onkeyup="searchCompany()">
+
+<div id="companyList"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
